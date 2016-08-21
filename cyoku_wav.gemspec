@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
     There are accessor to the audio format.
     Read only supports.
   EOT
-  spec.homepage      = "https://github.com/shinokaro"
+  spec.homepage      = "https://github.com/shinokaro/cyoku_wav"
   spec.license       = "zlib"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

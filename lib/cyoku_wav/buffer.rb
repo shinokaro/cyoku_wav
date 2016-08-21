@@ -28,7 +28,6 @@ module CyokuWav
       raise "Sub chunk id: #{id}" if id != "data"
       @size = size
       @data = read(size)
-
     end
 
     attr_reader :bits_per_sample, :channels, :data, :samples_per_sec, :size
